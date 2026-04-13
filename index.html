@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Canopy | Slam Poetry Collective</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #0f172a;
+      color: #f1f5f9;
+    }
 
+    header {
+      background: linear-gradient(135deg, #14532d, #166534);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-style: italic;
+      color: #d1fae5;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #22c55e;
+      padding-bottom: 10px;
+    }
+
+    .about {
+      line-height: 1.6;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea, select {
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      background: #22c55e;
+      color: #022c22;
+      border: none;
+      padding: 12px;
+      font-size: 1.1em;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #16a34a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background: #020617;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>The Canopy</h1>
+  <p>A Slam Poetry Collective | Created by Gabe & Link</p>
+</header>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>
+    The Canopy is a space where voices grow, stories intertwine, and truth is spoken boldly.
+    Founded by Gabe and Link, we bring together poets who aren’t afraid to be heard.
+    Whether you're raw, refined, or just starting out—there’s a place for you here.
+  </p>
+</section>
+
+<section>
+  <h2>Apply to Join</h2>
+  <form action="#" method="post">
+    <input type="text" name="name" placeholder="Full Name" required>
+    
+    <input type="email" name="email" placeholder="Email Address" required>
+    
+    <input type="text" name="experience" placeholder="Poetry Experience (optional)">
+    
+    <select name="style">
+      <option value="">Preferred Style</option>
+      <option>Spoken Word</option>
+      <option>Traditional</option>
+      <option>Experimental</option>
+      <option>Other</option>
+    </select>
+
+    <textarea name="sample" placeholder="Share a short sample of your poetry..." required></textarea>
+    
+    <textarea name="why" placeholder="Why do you want to join The Canopy?" required></textarea>
+    
+    <button type="submit">Submit Application</button>
+  </form>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: thecanopypoetry@gmail.com</p>
+  <p>Instagram: @thecanopypoetry</p>
+</section>
+
+<footer>
+  <p>© 2026 The Canopy | Created by Gabe & Link</p>
+</footer>
+
+</body>
+</html>
